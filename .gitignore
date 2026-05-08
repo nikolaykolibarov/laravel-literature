@@ -1,3 +1,4 @@
+# Laravel
 /node_modules
 /public/hot
 /public/storage
@@ -8,5 +9,28 @@
 Homestead.json
 Homestead.yaml
 npm-debug.log
+yarn-error.log
 .env
+.env.backup
+.phpunit.result.cache
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Composer
+composer.phar
+
+# PHPUnit
+.phpunit.result.cache
+phpunit.xml.bak
+
+# Laravel specific
+storage/*.log
+bootstrap/cache/*.php
